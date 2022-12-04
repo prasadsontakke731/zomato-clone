@@ -12,7 +12,7 @@ function QuickSearch() {
       if (status) {
         setMeal_type([...mealType]);
       } else {
-        alert('mealType not found ');
+        alert('mealType not founded ');
       }
     } catch (error) {
       alert(error);
