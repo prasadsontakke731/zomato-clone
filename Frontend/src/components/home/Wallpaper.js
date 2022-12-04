@@ -4,8 +4,6 @@ import { useNavigate } from 'react-router-dom';
 import Header from '../Header';
 
 function Wallpaper(props) {
- 
-
   let [locList, setLocList] = useState([]);
   let navigate = useNavigate();
   let locationRef = useRef();
@@ -63,12 +61,12 @@ function Wallpaper(props) {
     navigate('/restuarant/' + id);
   };
   return (
-    <section className="row main-section align-content-start" >
-    <Header bgColor="" />
+    <section className='row main-section align-content-start'>
+      <Header bgColor='' />
       <section className='col-12 d-flex flex-column align-items-center justify-content-center'>
         <p className='brand-name fw-bold my-lg-2 mb-0'>e!</p>
         <p className='h1 text-white my-3 text-center'>
-          Find the best restaurants, cafés, and bars
+          Find the best restaurants, and bars
         </p>
         <div className='search w-50 d-flex mt-3'>
           <div className='d-flex flex-column position-relative'>
